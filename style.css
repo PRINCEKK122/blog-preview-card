@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #f4d04e;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Figtree, serif;
+  font-size: 14px;
+  height: 100vh;
+  color: #111;
+}
+
+img {
+  width: 100%;
+}
+
+.mb {
+  margin-bottom: 24px;
+}
+
+.card {
+  border: 1px solid #111;
+  border-radius: 20px;
+  width: 360px;
+  background-color: #fff;
+  padding: 24px;
+  box-shadow: 8px 8px #000;
+}
+
+.course-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.course-status {
+  background-color: #f4d04e;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+.small-text {
+  font-weight: 500;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.course-summary {
+    color: #6b6b6b;
+    font-size: 16px;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.headshot {
+    background-image: url("/images/headshot_turntabl.jpeg");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.author {
+    font-weight: 800
+}
+
+
+
+
+
+
