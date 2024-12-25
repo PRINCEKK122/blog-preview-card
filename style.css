@@ -55,35 +55,35 @@ img {
 }
 
 .title {
-    font-size: 24px;
-    font-weight: 800;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.title:hover,
+.title:active {
+  color: #f4d04e;
+  cursor: pointer;
 }
 
 .course-summary {
-    color: #6b6b6b;
-    font-size: 16px;
+  color: #6b6b6b;
+  font-size: 16px;
 }
 
 .bio {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .headshot {
-    background-image: url("/images/headshot_turntabl.jpeg");
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    border-radius: 50%;
+  background-image: url("/images/headshot_turntabl.jpeg");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border-radius: 50%;
 }
 
 .author {
-    font-weight: 800
+  font-weight: 800;
 }
-
-
-
-
-
-
