@@ -14,7 +14,7 @@ body {
   justify-content: center;
   font-family: Figtree, serif;
   font-size: 14px;
-  height: 100vh;
+  min-height: 100vh;
   color: #111;
 }
 
